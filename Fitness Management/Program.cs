@@ -16,7 +16,7 @@ class Program
         {
             string[] operations = { "1. Add a class", "2. View all available classes", "3. Update capacity of a class",
             "4. Book a class", "5. Cancel a booking", "6. Available classes", "7. View Active Bookings",
-            "8. View most popular class", "9. Booking rate per class", "10. Exit"};
+            "8. View most popular class", "9. Booking rate per class", "10. Quit"};
             foreach (string operation in operations)
             {
                 Console.WriteLine(operation);
